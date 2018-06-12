@@ -1,0 +1,66 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LuceneTest<9.realcase.lucene>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "LuceneTest",
+            "projectName": "9.realcase.lucene",
+            "args": "",
+            "sourcePaths": [
+                "${workspaceRoot}/src/main/java"
+              ],
+              "options": []
+        
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CheckIndex<9.realcase.lucene>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "org.apache.lucene.index.CheckIndex",
+            "projectName": "9.realcase.lucene",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-IndexUpgrader<9.realcase.lucene>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "org.apache.lucene.index.IndexUpgrader",
+            "projectName": "9.realcase.lucene",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LockStressTest<9.realcase.lucene>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "org.apache.lucene.store.LockStressTest",
+            "projectName": "9.realcase.lucene",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LockVerifyServer<9.realcase.lucene>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "org.apache.lucene.store.LockVerifyServer",
+            "projectName": "9.realcase.lucene",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Debug (Attach)",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 0
+        }
+    ]
+}

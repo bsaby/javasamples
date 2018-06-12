@@ -1,0 +1,4 @@
+"java.debug.settings.showHex": true,
+"java.debug.settings.maxStringLength": 10,
+"java.debug.settings.showQualifiedNames": true,
+"java.debug.settings.showStaticVariables": false, 

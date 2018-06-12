@@ -1,0 +1,3 @@
+mvn archetype:generate ¨CDarchetypeArtifactId:maven-archetype-quickstart
+com.ms.samples
+simple-app
