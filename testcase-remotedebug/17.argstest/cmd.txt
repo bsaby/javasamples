@@ -1,2 +1,0 @@
-pro1 pro2
--DsysProp1=sp1 -DsysProp2=sp2

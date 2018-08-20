@@ -1,3 +1,0 @@
-java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=1044 test.attachdebug
-OR
-java -xdebug -xrunjdwp:server=y,transport=dt_socket,address=1044,suspend=y 
